@@ -49,3 +49,34 @@ sudo apt update
 sudo apt upgrade
 sudo apt install package_name
 sudo apt remove package_name
+
+🌐 Networking
+ping google.com
+curl http://example.com
+wget http://example.com/file.zip
+ifconfig       # network info
+ip addr show   # newer alternative
+
+🖥️ System Monitoring
+top           # real-time processes
+htop          # better view (install first)
+df -h         # disk usage
+du -sh *      # folder sizes
+free -h       # memory usage
+uptime        # system load & uptime
+
+👤 Users and Groups
+whoami
+id
+adduser new_user
+passwd username
+usermod -aG groupname username
+
+⚡ Useful Shortcuts
+Ctrl + C   # stop running command
+Ctrl + Z   # pause command
+Ctrl + D   # logout/exit
+!!         # repeat last command
+history    # show command history
+!123       # run command #123 from history
+[Linux_CheatSheet.pdf](https://github.com/user-attachments/files/21822868/Linux_CheatSheet.pdf)
